@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8279157769698877375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2626894441700427423}
+  - component: {fileID: 8461662563642869936}
+  m_Layer: 0
+  m_Name: point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2626894441700427423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8279157769698877375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8461662563642869936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8279157769698877375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969ed44079b14574ab38ad7fa883dc8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hight: 1
+  size: 1
+  subElement: {fileID: 0}
+  prefsGraph:
+    pointElements:
+      size: 1
+      hight: 1
+      FloorGround: {fileID: 944649728708488906, guid: 842748f26ac6232418a3e62dc4094be9, type: 3}
+      Wall: {fileID: 0}
+      Roof: {fileID: 0}
+      Pillar:
+        PillarUp: {fileID: 0}
+        PillarDown: {fileID: 0}
+        PillarMiddle1: {fileID: 0}
+        PillarMiddle2: {fileID: 0}
+    blacklistManager:
+      blacklistpositions:
+      - {x: -4.4730167, y: 5.5024652, z: 1.1268834}
+      - {x: -4.4730167, y: 5.5024652, z: 2.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 3.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 4.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 5.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 6.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 7.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 8.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 9.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 10.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 11.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 12.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 13.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 14.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 15.1268835}
+      - {x: -4.4730167, y: 5.5024652, z: 16.126884}
+  rootElement: {fileID: 0}
+  subElements: []
+  newWays: []
+  buildVector: {x: 0, y: 0, z: 1}
+  parentElement: {fileID: 0}
+  connectElements: []
+  preElement: {fileID: 0}

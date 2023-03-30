@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0dad494ed348c546b5661e6fdbf2802, type: 3}
+  m_Name: Test Point Elements
+  m_EditorClassIdentifier: 
+  size: 4
+  hight: 2
+  FloorGround: {fileID: 944649728708488906, guid: 842748f26ac6232418a3e62dc4094be9, type: 3}
+  WallH: {fileID: 944649728708488906, guid: cdd5de7ee19015d4f99099ca66383dc0, type: 3}
+  WallV: {fileID: 944649728708488906, guid: 7ef56d08da1876b4fa7801d584a53fbd, type: 3}
+  Roof: {fileID: 0}
+  Pillar:
+    PillarUp: {fileID: 0}
+    PillarDown: {fileID: 944649728708488906, guid: 037d9308ad813a741ae1a99c79deea72, type: 3}
+    PillarMiddle1: {fileID: 0}
+    PillarMiddle2: {fileID: 0}
+  PathTypeH: []
+  PathTypeV: []
+  graphPoints: []
